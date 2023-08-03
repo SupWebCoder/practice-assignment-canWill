@@ -1,0 +1,64 @@
+@media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
+    .banner_content h1.title {
+        font-size: 45px;
+    }
+    .banner_content p {
+        padding: 0px 15px 0px;
+    }
+    .fl_block p {
+        font-size: 20px;
+    }
+    .fl_block {
+        margin-bottom: 22px;
+    }
+    .floor_banner {
+        background-size: cover;
+        background-position: bottom left;
+        margin-top: -18px;
+        padding: 98px 0px 15px;
+    }
+    .floor_card {
+        margin: 0px 24px 78px;
+    }
+    .contact_grid {
+        margin-bottom: 36px;
+    }
+    .footer_top {
+        display: block;
+        padding: 0px 16px 39px;
+    }
+    .footer_top a {
+        display: block;
+        margin-bottom: 16px;
+    }
+    .footer_top img {
+        width: 159px;
+        margin-bottom: 9px;
+    }
+    .header_top {
+        display: none;
+    }
+    li.nav-item a.nav-link {
+        margin: 0px 0px 6px 10px;
+    }
+    .mobile-offcanvas .navbar-brand img {
+        margin-bottom: 34px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .mobile-offcanvas .navbar-brand img {
+        margin-top: 58px;
+        margin-bottom: 34px;
+    }
+    li.nav-item a.nav-link {
+        margin: 0px 0px 6px 10px;
+    }
+    .header_top {
+        position: absolute;
+        top: 15px;
+        left: 17px;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1399px) {}
